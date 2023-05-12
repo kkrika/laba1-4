@@ -1,0 +1,33 @@
+.kghomebuttons {
+  margin-bottom: 16px;
+}
+.kghomebuttons .btn {
+  border: 1px solid #d6d4d4;
+  color: #777;
+  display: block;
+  text-align: right;
+  margin-bottom: 8px;
+}
+.kghomebuttons .btn strong {
+  display: block;
+}
+.kghomebuttons .btn svg {
+  float: left;
+  margin-top: 6px;
+  margin-left: -4px;
+  margin-right: -28px;
+  width: 36px;
+  height: 36px;
+}
+.kghomebuttons .btn:hover {
+  background-color: #d6d4d4;
+  color: white;
+}
+.kghomebuttons .btn:hover svg {
+  color: white;
+}
+@media (min-width: 1200px) {
+  .kghomebuttons .col-lg-2 {
+    float: left;
+  }
+}/*# sourceMappingURL=kghomebuttons.css.map */

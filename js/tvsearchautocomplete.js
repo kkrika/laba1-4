@@ -1,0 +1,1 @@
+function doLiveSearch(t){$.post($("#top1e_url_ajax_search input.url_ajax").val(),{queryString:t},(function(t){$("#top1e_eccept_data").html(t),$(".ajax_add_to_cart_button").click((function(){var t=$(this).attr("id");"disabled"!=$(this).attr("disabled")&&ajaxCart.add(t,null,!1,this)}))}))}

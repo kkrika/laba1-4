@@ -1,0 +1,16 @@
+.header_user_info {
+  float: right;
+}
+.header_user_info a {
+  color: #fff;
+  display: inline-block;
+  padding: 8px 5px;
+  cursor: pointer;
+  line-height: 18px;
+}
+.header_user_info a:hover, .header_user_info a.active {
+  background: #2b2b2b;
+}
+.header_user_info a:last-child {
+  padding-right: 0;
+}/*# sourceMappingURL=blockuserinfo.css.map */
